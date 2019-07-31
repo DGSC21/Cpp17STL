@@ -1,0 +1,3 @@
+﻿  Lambda_06.cpp
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_06\Lambda_06.cpp(53,7): warning C4834:  'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+  Lambda_06.vcxproj -> C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Debug\Lambda_06.exe

@@ -1,0 +1,48 @@
+﻿  Lambda_02.cpp
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(9,37): error C3533:  매개 변수에 'auto'이(가) 포함된 형식을 포함할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(17,32): error C3533:  매개 변수에 'auto'이(가) 포함된 형식을 포함할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(20,2): error C2672:  'begin': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): error C2893:  'unknown-type std::begin(_Container &)' 함수 템플릿을 특수화하지 못했습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): message :  다음 템플릿 인수 사용:
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): message :  '_Container=unknown-type'
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): error C2784:  'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': 'std::initializer_list<_Elem>'의 템플릿 인수를 'unknown-type'에서 추론할 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\initializer_list(52): message :  'std::begin' 선언을 참조하십시오.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(20,2): error C2672:  'end': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): error C2893:  'unknown-type std::end(_Container &)' 함수 템플릿을 특수화하지 못했습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): message :  다음 템플릿 인수 사용:
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): message :  '_Container=unknown-type'
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): error C2784:  'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': 'std::initializer_list<_Elem>'의 템플릿 인수를 'unknown-type'에서 추론할 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\initializer_list(58): message :  'std::end' 선언을 참조하십시오.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): error C3536:  '<begin>$L0': 초기화되기 전에 사용할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): error C3536:  '<end>$L0': 초기화되기 전에 사용할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(19,2): error C2100:  간접 참조가 잘못되었습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,14): error C2664:  'void consumer(unknown-type)': 인수 1을(를) 'std::deque<int,std::allocator<_Ty>>'에서 'unknown-type'(으)로 변환할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,14): error C2664:         with
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,14): error C2664:         [
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,14): error C2664:             _Ty=int
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,14): error C2664:         ]
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,27): error C2664:  'void consumer(unknown-type)': 인수 1을(를) 'std::list<int,std::allocator<_Ty>>'에서 'unknown-type'(으)로 변환할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,27): error C2664:         with
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,27): error C2664:         [
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,27): error C2664:             _Ty=int
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,27): error C2664:         ]
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,40): error C2664:  'void consumer(unknown-type)': 인수 1을(를) 'std::vector<int,std::allocator<_Ty>>'에서 'unknown-type'(으)로 변환할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,40): error C2664:         with
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,40): error C2664:         [
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,40): error C2664:             _Ty=int
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(32,40): error C2664:         ]
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(43,9): error C2664:  'void print(unknown-type)': 인수 1을(를) 'std::deque<int,std::allocator<_Ty>>'에서 'unknown-type'(으)로 변환할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(43,9): error C2664:         with
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(43,9): error C2664:         [
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(43,9): error C2664:             _Ty=int
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(43,9): error C2664:         ]
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(44,9): error C2664:  'void print(unknown-type)': 인수 1을(를) 'std::list<int,std::allocator<_Ty>>'에서 'unknown-type'(으)로 변환할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(44,9): error C2664:         with
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(44,9): error C2664:         [
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(44,9): error C2664:             _Ty=int
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(44,9): error C2664:         ]
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(45,9): error C2664:  'void print(unknown-type)': 인수 1을(를) 'std::vector<int,std::allocator<_Ty>>'에서 'unknown-type'(으)로 변환할 수 없습니다.
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(45,9): error C2664:         with
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(45,9): error C2664:         [
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(45,9): error C2664:             _Ty=int
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Lambda\Lambda_02\Lambda_02.cpp(45,9): error C2664:         ]
