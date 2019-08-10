@@ -1,0 +1,2 @@
+﻿  Utility_14.cpp
+C:\Users\SC\DGSC\Dev\Microsoft Visual Studio\WD\Utility\Utility_14\Utility_14.cpp(41,34): error C2397:  'unsigned __int64'에서 'size_t'(으)로의 변환에는 축소 변환이 필요합니다.
